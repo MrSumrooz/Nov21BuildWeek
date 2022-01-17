@@ -23,3 +23,17 @@ background-color: #282828;
 color: white;
 
 }
+
+.imgUserName{
+    border-radius: 50%;
+    width:25px;
+}
+
+.albumId{
+    margin-left: 10px
+}
+
+.rightIcon{
+    opacity: 0.6;
+    margin-left:10px;
+}
