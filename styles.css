@@ -1,0 +1,36 @@
+.imgUserName{
+    border-radius: 50%;
+    width:25px;
+}
+
+.albumId{
+    margin-left: 10px
+}
+
+.rightIcon{
+    opacity: 0.6;
+    margin-left:10px;
+}
+
+.borderLine{
+    border-top:1px solid gray
+}
+
+hr{
+    size:5px;
+    width: 70px;
+}
+
+.createAccountBtn{
+    border: 2px solid black;
+    background-color: white!important;
+}
+
+.termAndCondition{
+    font-size: 10px;
+}
+
+
+.bgHeader{
+   background: linear-gradient(180deg, rgba(167,34,129,1) 79%, rgba(0,0,0,1) 100%);
+}
