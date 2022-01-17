@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+
+      div.progress {
+          height: 3px;
+      }
+      
+      .volume-progress {
+          width: 100px;
+      }
+      
+  </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,13 +82,37 @@
 
         </div>
  <!-- footer music bar-->
-        <div class="row">
+ <div class="container-fluid fixed-bottom bg-dark">
+  <div class="row">
+      <div class="col-3"> 
+          <div class="media">
+              <img src="/assets/nowplaying.jpeg" style="width:64px; height:64px" class="align-self-center mr-3" alt="...">
+              <div class="media-body text-white">
+                <h5 class="mt-0">Another One Bites The Dust - Remastered 2011</h5>
+                <p>Queen</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-6">
 
-
-
-
-
-        </div>
+      </div>
+      <div class="col-3 text-white d-inline-flex flex-row-reverse align-items-center">
+          <div class="progress volume-progress ml-2"> 
+              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="ml-2">  
+              <i class="bi bi-volume-up"></i>
+          </div>
+          <div class="ml-2"> 
+              <i class="bi bi-pc-display"></i>
+          </div>
+          <div class="ml-2"> 
+              <i class="bi bi-list"></i>
+          </div>
+          
+      </div>
+  </div>
+</div>
 
           </div>
       </div>
