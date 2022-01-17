@@ -45,13 +45,13 @@
           <div class="sidebar d-flex   pt-2"><i class="bi bi-book mx-4"></i>
             <p>Your Library</p>
           </div>
-          <div class="sidebar d-flex  mt-4 "><img src="assets/add-image-icon-27.jpg" height="50px" alt="img"
+          <div class="sidebar d-flex  mt-4 "><img src="assets/add-image-icon-27.jpg" height="20px" alt="img"
               class="bg-secondary mx-2"></i>
             <p class="mt-2">Create Playlist</p>
           </div>
           <div class="sidebar d-flex  mt-4 "><img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMZOG9dwa-n-mClHYosro22McO4ZyuzNNArQ&usqp=CAU"
-              alt="Img" height="50px" class="mx-2"></i>
+              alt="Img" height="20px" class="mx-2"></i>
             <p class="mt-2">liked Songs</p>
           </div>
           <hr>
@@ -138,12 +138,28 @@
       <div class="container-fluid fixed-bottom bg-dark">
         <div class="row">
           <div class="col-3">
-            <div class="media">
-              <img src="/assets/nowplaying.jpeg" style="width:64px; height:64px" class="align-self-center mr-3"
+            <div class="media d-flex">
+              <img src="/assets/nowplaying.jpeg" style="width:40px; height:40px" class="align-self-center my-3 mr-3"
                 alt="...">
-              <div class="media-body text-white">
-                <h5 class="mt-0">Another One Bites The Dust - Remastered 2011</h5>
-                <p>Queen</p>
+              <div class="media-body text-white d-flex align-items-center ">
+                <h6 class="mt-0 titleSong">Another One Bites The Dust - Remastered 2011</h6>
+                <div>Queen</div>
+                <div class='mx-3'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </div>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-window-fullscreen" viewBox="0 0 16 16">
+                    <path
+                      d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z" />
+                    <path
+                      d="M.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5H.5ZM1 5V2h14v3H1Zm0 1h14v8H1V6Z" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
