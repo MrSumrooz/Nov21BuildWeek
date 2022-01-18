@@ -1,0 +1,36 @@
+.borderLine{
+    border-bottom: 1px solid gray;
+}
+
+.createAccountBtn{
+    background-color: white;
+
+}
+
+.fbIcon,
+.appleIcon{
+    margin-right: 20px;
+}
+
+.logInBtn{
+    width: 200px;
+}
+
+.termAndCondition{
+    font-size: 10px;
+}
+
+.greenLink{
+    color:green;
+    
+}
+
+.orLine{
+    border-bottom: 1px solid black;
+}
+
+hr{
+    margin: 12px 0px 20px;
+    flex: 1 1 0%;
+    border-top: 3.px solid rgb(217, 218, 220);
+}
