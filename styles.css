@@ -43,10 +43,27 @@ color: white;
 .media-body{
     width: 230px;
     font-size: 10px;
+    
+    
 }
 
 .titleSong{
     font-size: 10px;
+}
+
+
+.artistName {
+    display: flex;
+    flex-direction: column;
+}
+
+.playFooter {
+    background-color: rgb(18, 18, 18);
+    
+}
+
+.progress-song {
+    padding-bottom: 10px;
 }
 
 
@@ -151,4 +168,5 @@ color: white;
     padding-left: 230%;
    
 }
+
 
