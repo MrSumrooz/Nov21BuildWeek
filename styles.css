@@ -87,6 +87,45 @@ color: white;
     
 }
 
+
+.play-btn{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: green;
+    border-radius: 50%;
+    position:relative;
+    padding-left: 0%;
+    margin-top: 5%;
+    
+}
+.play-btn::before{
+    content:"";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    /* background-color: white; */
+    top: 0%;
+    bottom: 0%;
+    left: 1%;
+    margin: auto;
+    right: 0%;
+    border-style: solid;
+    border-width: 7px 0 7px 10px;
+    border-color:  transparent transparent transparent white;
+
+}
+.icon{
+    padding-left: 90%;
+    
+}
+.music{
+    padding-left: 50%;
+    
+    
+}
+
+
 .Title{
     color: white;
     padding-left: 15px;
@@ -112,6 +151,4 @@ color: white;
     padding-left: 230%;
    
 }
-.container{
-    padding-left: 0%;
-}
+
