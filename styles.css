@@ -6,8 +6,8 @@ body{
 }
 
 .sidebar{
-    font-size: 10px;
-    font-weight: 100;
+    font-size: large;
+    font-weight: 600;
     border-radius: 5px;
     color: #c5d1c5;
     line-height: 0.8;
@@ -43,10 +43,27 @@ color: white;
 .media-body{
     width: 230px;
     font-size: 10px;
+    
+    
 }
 
 .titleSong{
     font-size: 10px;
+}
+
+
+.artistName {
+    display: flex;
+    flex-direction: column;
+}
+
+.playFooter {
+    background-color: rgb(18, 18, 18);
+    
+}
+
+.progress-song {
+    padding-bottom: 10px;
 }
 
 
@@ -185,5 +202,9 @@ color: white;
 .Top-icon{
     margin-bottom: 0%;
     padding-bottom: 0%;
+}
+
+.cardsample{
+    background-color: #282828 !important;
 }
 
