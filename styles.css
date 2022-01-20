@@ -154,8 +154,9 @@ color: white;
 }
 label{
     display: none;
+    font-size: 40px;
 }
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 600px) {
     .albumImg{
         width: 50%;
      }
@@ -174,21 +175,26 @@ label{
         font-size:30px;
         margin-right: -30px;
     }
-    .menuMobile{
-        text-align: center;
-        display: none;
-    }
+    
 
-    label{
+    
+    
+}
+
+@media screen and (max-width: 768px){
+label{
         cursor: pointer;
     }
     #toggle:checked + .menuMobile{
         display: block;
 
     }
+    .menuMobile{
+        text-align: center;
+        display: none;
+        font-size: 40px;
+    }
 }
-
-
 
 table{
     width: 100%;
