@@ -27,51 +27,93 @@
     <div class="container-fluid">
         <div class="row d-flex">
             <!-- left menu Bar down here-->
-            <div class="col-2 ">
-                <div class="Sidenavbar">
-                    <div class="logo mx-4 mt-4"> <img src="assets/Spotify_Logo_RGB_White.png" alt="spotifyLogo"
-                            height="50px">
-                    </div>
-
-                    <div class="sidebar d-flex align-items-baseline mt-4 "><i class="bi bi-house-door-fill mx-4"></i>
+            <div class="nav d-lg-none d-xl-none flex-column align-items-center">
+                <label for='toggle' class='text-white  '>&#9776;</label>
+                <input type="checkbox" id='toggle'>
+                <div class="menuMobile">
+                    <div class="sidebar sidebarIcon d-flex align-items-baseline mt-4 "><i
+                            class="sidebar sidebarIcon bi bi-house-door-fill mr-4"></i>
                         <p>Home</p>
                     </div>
-                    <div class="sidebar d-flex align-items-baseline  "><i class="bi bi-search mx-4"></i>
+                    <div class="sidebar sidebarIcon d-flex align-items-baseline  "><i
+                            class=" sidebar sidebarIcon bi bi-search mr-4"></i>
                         <p>Search</p>
                     </div>
-                    <div class="sidebar d-flex align-items-baseline  "><i class="bi bi-book mx-4"></i>
+                    <div class="sidebar sidebarIcon d-flex align-items-baseline"><i
+                            class="sidebar sidebarIcon bi bi-book mr-4"></i>
                         <p>Your Library</p>
                     </div>
-                    <div class="sidebar d-flex  mt-4 "><img src="assets/add-image-icon-27.jpg" height="50px" alt="img"
-                            class="bg-secondary mx-2"></i>
+                    <div class="sidebar sidebarIcon d-flex  mt-4 align-items-center" style="width: max-content;"><img
+                            src="assets/add-image-icon-27.jpg" height="50px" alt="img"
+                            class="bg-secondary sidebar sidebarIcon mr-3"
+                            style="width: 20px; height: fit-content; margin-right: 10px;"></i>
                         <p class="mt-2">Create Playlist</p>
                     </div>
-                    <div class="sidebar d-flex  mt-4 "><img
+                    <div class="sidebar sidebarIcon d-flex  align-items-center " style="width: max-content;"><img
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMZOG9dwa-n-mClHYosro22McO4ZyuzNNArQ&usqp=CAU"
-                            alt="Img" height="50px" class="mx-2"></i>
+                            alt="Img" height="50px" class=""
+                            style="width: 20px; height: fit-content; margin-right: 15px;"></i>
+                        <p class="mt-2">liked Songs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 d-none d-lg-block ">
+
+                <div class="Sidenavbar">
+                    <div class="logo mt-4"> <img src="assets/Spotify_Logo_RGB_White.png" alt="spotifyLogo" height="50px"
+                            style="width: 59%; height: auto;">
+                    </div>
+
+
+                    <div class="sidebar sidebarIcon d-flex align-items-baseline mt-4 "><i
+                            class="sidebar sidebarIcon bi bi-house-door-fill mr-4"></i>
+                        <p>Home</p>
+                    </div>
+                    <div class="sidebar sidebarIcon d-flex align-items-baseline  "><i
+                            class=" sidebar sidebarIcon bi bi-search mr-4"></i>
+                        <p>Search</p>
+                    </div>
+                    <div class="sidebar sidebarIcon d-flex align-items-baseline"><i
+                            class="sidebar sidebarIcon bi bi-book mr-4"></i>
+                        <p>Your Library</p>
+                    </div>
+                    <div class="sidebar sidebarIcon d-flex  mt-4 align-items-center" style="width: max-content;"><img
+                            src="assets/add-image-icon-27.jpg" height="50px" alt="img"
+                            class="bg-secondary sidebar sidebarIcon mr-3"
+                            style="width: 20px; height: fit-content; margin-right: 10px;"></i>
+                        <p class="mt-2">Create Playlist</p>
+                    </div>
+                    <div class="sidebar sidebarIcon d-flex  align-items-center " style="width: max-content;"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMZOG9dwa-n-mClHYosro22McO4ZyuzNNArQ&usqp=CAU"
+                            alt="Img" height="50px" class=""
+                            style="width: 20px; height: fit-content; margin-right: 15px;"></i>
                         <p class="mt-2">liked Songs</p>
                     </div>
                     <hr>
+                    <div>
+                        <p class="sidebar sidebarAlbumList mb-2">Funny Heavy Bluesy</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Your Top Songs 2020</p>
+                        <p class="sidebar sidebarAlbumList mb-2">In Love With You - Erykah B...</p>
+                        <p class="sidebar sidebarAlbumList mb-2">This Is Rod Stewart</p>
+                        <p class="sidebar sidebarAlbumList mb-2">FRANCHISE ft. Young Thug ...</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Your Top Songs 2019</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Palleggio</p>
+                        <p class="sidebar sidebarAlbumList mb-2">This Is Joe Bonamassa</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Jun19</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Jack 30th Party 2</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Jack 30th Party</p>
+                        <p class="sidebar sidebarAlbumList mb-2">This Is Opeth</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Metal Ballads</p>
+                        <p class="sidebar sidebarAlbumList mb-2">New Playlist</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Your Top Songs 2018</p>
+                        <p class="sidebar sidebarAlbumList mb-2">Jazz Classics Blue Note Editi..</p>
+                    </div>
 
-                    <p class="sidebar mx-2 px-2">Funny Heavy Bluesy</p>
-                    <p class="sidebar mx-2 px-2">Your Top Songs 2020</p>
-                    <p class="sidebar mx-2 px-2">In Love With You - Erykah B...</p>
-                    <p class="sidebar mx-2 px-2">This Is Rod Stewart</p>
-                    <p class="sidebar mx-2 px-2">FRANCHISE ft. Young Thug ...</p>
-                    <p class="sidebar mx-2 px-2">Your Top Songs 2019</p>
-                    <p class="sidebar mx-2 px-2">Palleggio</p>
-                    <p class="sidebar mx-2 px-2">This Is Joe Bonamassa</p>
-                    <p class="sidebar mx-2 px-2">Jun19</p>
-                    <p class="sidebar mx-2 px-2">Jack 30th Party 2</p>
-                    <p class="sidebar mx-2 px-2">Jack 30th Party</p>
-                    <p class="sidebar mx-2 px-2">This Is Opeth</p>
-                    <p class="sidebar mx-2 px-2">Metal Ballads</p>
-                    <p class="sidebar mx-2 px-2">New Playlist</p>
-                    <p class="sidebar mx-2 px-2">Your Top Songs 2018</p>
-                    <p class="sidebar mx-2 px-2">Jazz Classics Blue Note Editi..</p>
 
-                    <div class="sidebar d-flex mx-4 px-2  pt-2"><i class="bi bi-cloud-download-fill"></i>
-                        <p class="mx-2">Install App</p>
+
+                    <div class="sidebar d-flex "><i class="bi bi-cloud-download-fill"
+                            style="margin-top: 0!important; margin-right:7px;"></i>
+                        <p class="">Install App</p>
                     </div>
 
                 </div>
@@ -80,7 +122,7 @@
             </div>
 
             <!-- main content artist page-->
-            <div class="col-10 p-0">
+            <div class="col-12 col-md-12 col-lg-10 px-0">
                 <!--arrow icon and user button  -->
                 <div class='position-relative'>
 
@@ -140,21 +182,21 @@
 
                 </div>
                 <!-- song list -->
-                <div class="Popular-list" style= "height: 100%">
+                <div class="Popular-list" style="height: 100%">
                     <div class="Popular-list position-absolute pt-4">
                         <div class="col-10">
-                          <div class="d-flex align-items-center">
-                            <div class="Pause-btn mt-0"></div>
-                            <div class="Music d-flex"></div>
-                            <button class="follow-button">FOLLOW</button>
-                            <a href=""><i class="bi bi-three-dots"></i></a>
-                          </div>
+                            <div class="d-flex align-items-center">
+                                <div class="Pause-btn mt-0"></div>
+                                <div class="Music d-flex"></div>
+                                <button class="follow-button">FOLLOW</button>
+                                <a href=""><i class="bi bi-three-dots"></i></a>
+                            </div>
                         </div>
 
                         <div class="Playlist d-flex">
-                        <p class="Song-Type">Popular</p>
-                        <div class="Artist-best">Artist pick</div>
-                    </div>
+                            <p class="Song-Type">Popular</p>
+                            <div class="Artist-best">Artist pick</div>
+                        </div>
 
                         <table>
                             <thead>
@@ -166,45 +208,65 @@
                                     <th scope="col" style="width: 60px;"></th>
                                     <th scope="col" style="width: 50px;"></th>
                                     <th scope="col" style="width: 300px;"></th>
-                                    
-                                
+
+
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td scope="row" class="Reception"><a href=""><i class="bi bi-reception-3" style= "color: green; width: 0.25%;"></i></a></td>
-                                    <td class="Queen1"><img src="./assets/Queen album.jpeg" style=width:25px; alt=""></td>
-                                    <td><div class="Artist1">Another One Bites The Dust - Remastered 2011</div></td>
+                                    <td scope="row" class="Reception"><a href=""><i class="bi bi-reception-3"
+                                                style="color: green; width: 0.25%;"></i></a></td>
+                                    <td class="Queen1"><img src="./assets/Queen album.jpeg" style=width:25px; alt="">
+                                    </td>
+                                    <td>
+                                        <div class="Artist1">Another One Bites The Dust - Remastered 2011</div>
+                                    </td>
                                     <td class="Views text-muted">1,013,128,772</td>
                                     <td class="time text-muted">3.34</td>
                                     <td class="Pic1"><img src="./assets/Queen.jpeg" style=width:60px; alt=""></td>
-                                    <td><div class="Queen-Post"><img src="./assets/Main album.jpeg" style=width:15px;> <p class="Album-Post text-muted">Posted By Queen</p></div><div class="Best-Album">Queen Best of</div><div class="Best-Playlist text-muted">Playlist</div></td>
-                                </tr> 
+                                    <td>
+                                        <div class="Queen-Post"><img src="./assets/Main album.jpeg" style=width:15px;>
+                                            <p class="Album-Post text-muted">Posted By Queen</p>
+                                        </div>
+                                        <div class="Best-Album">Queen Best of</div>
+                                        <div class="Best-Playlist text-muted">Playlist</div>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td scope="row" class="Artist-no text-muted">2</td>
                                     <td class="Remastered"><img src="./assets/cover.jpeg" style=width:25px;></td>
-                                    <td><div class="Artist">Bohemian Rhapsody - Remastered 2011</div></td>
+                                    <td>
+                                        <div class="Artist">Bohemian Rhapsody - Remastered 2011</div>
+                                    </td>
                                     <td class="Views text-muted">1,497,986,258</td>
                                     <td class="time text-muted">5.54</td>
                                 </tr>
                                 <tr>
                                     <td scope="row" class="Artist-no text-muted">3</td>
-                                    <td class="Stop"><img src="./assets/Don't.jpg" alt=""style=width:25px;></td>
-                                    <td><div class="Artist">Don't Stop Me Now - Remastered 2011</div></td>
+                                    <td class="Stop"><img src="./assets/Don't.jpg" alt="" style=width:25px;></td>
+                                    <td>
+                                        <div class="Artist">Don't Stop Me Now - Remastered 2011</div>
+                                    </td>
                                     <td class="Views text-muted">1,063,959,983</td>
                                     <td class="time text-muted">3.29</td>
                                 </tr>
                                 <tr>
                                     <td scope="row" class="Artist-no text-muted">4</td>
-                                    <td class="Pressure"><img src="./assets/Under Pressure.jpeg" alt=""style=width:25px;></td>
-                                    <td><div class="Artist">Under Pressure - Remastered 2011</div></td>
+                                    <td class="Pressure"><img src="./assets/Under Pressure.jpeg" alt=""
+                                            style=width:25px;></td>
+                                    <td>
+                                        <div class="Artist">Under Pressure - Remastered 2011</div>
+                                    </td>
                                     <td class="Views text-muted">900,225,096</td>
                                     <td class="time text-muted">4.08</td>
                                 </tr>
                                 <tr>
                                     <td scope="row" class="Artist-no text-muted">5</td>
-                                    <td class="Rock-you"><img src="./assets/We will rock you.png" alt=""style=width:25px;></td>
-                                    <td><div class="Artist">We Will Rock You - Remastered </div></td>
+                                    <td class="Rock-you"><img src="./assets/We will rock you.png" alt=""
+                                            style=width:25px;></td>
+                                    <td>
+                                        <div class="Artist">We Will Rock You - Remastered </div>
+                                    </td>
                                     <td class="Views text-muted">705,225,721</td>
                                     <td class="time text-muted">2.02</td>
                                 </tr>
@@ -212,18 +274,18 @@
 
                             </tbody>
                         </table>
-                        
+
                         <p class="see-more text-muted">SEE MORE</p>
-                        
+
                         <p class="Releases">Popular Releases</p>
 
+                    </div>
                 </div>
-            </div>
 
-            
 
-                
-                      
+
+
+
 
 
 
