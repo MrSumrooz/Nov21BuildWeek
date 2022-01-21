@@ -57,6 +57,7 @@ color: white;
 
 .titleSong{
     font-size: 10px;
+    text-overflow: ellipsis;
 }
 
 
@@ -67,6 +68,7 @@ color: white;
 
 .playFooter {
     background-color: rgb(18, 18, 18);
+    height: 100px;
     
 }
 
@@ -173,8 +175,11 @@ label{
 
     .AlbumInfoContainer{
         flex-direction: column;
+
         flex-flow: wrap;
-        height: 335px
+
+        height: 335px;
+
     }
     .heartThreeDotsIcons{
         justify-content: space-between;
@@ -191,6 +196,15 @@ label{
     
     
 }
+
+@media (max-width: 576px)  { 
+    .galleryArtist {display : none;}
+    .rightVolumeSide {display: none;} 
+
+
+
+}
+
 
 @media screen and (max-width: 768px){
 label{
@@ -308,4 +322,136 @@ table{
 .Top-icon{
     margin-bottom: 0%;
     padding-bottom: 0%;
+}
+.Pause-btn{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: green;
+    border-radius: 50%;
+    position:relative;
+    padding-left: 0%;
+    margin-top: 5%;
+    
+}
+.Pause-btn::before{
+    content:"";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    /* background-color: white; */
+    top: 0%;
+    bottom: 0%;
+    left: 1%;
+    margin: auto;
+    right: 0%;
+    border-style: solid;
+    border-width: 0px 0 0px 0px;
+    border-color:  white white white white;
+  
+}
+.Song-Type{
+    color: white;
+}
+.Popular-list{
+    color: white;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 70%, rgba(99, 96, 96, 0.945) 83%);
+}
+.Playlist{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.Artist-no{
+    font-size: 10px;
+    font-weight: normal;
+    
+}
+.Reception{
+    color: green;
+    width: 0%;
+    
+}
+.Artist{
+    
+    font-weight: bold;
+   font-size: 8px;
+
+}
+.Views{
+    font-weight: bold;
+    /* padding-left: 20%; */
+ 
+   font-size: 8px;
+  
+
+}
+.time{
+    font-weight: bold;
+    /* padding-left: 50%; */
+   font-size: 8px;
+   
+}
+
+.Album-Post{
+    font-weight: bold;
+    /* padding-left: 400%; */
+   font-size: 8px;
+   width: 100%;
+   
+   
+}
+.Best-Album{
+    font-weight: bold;
+    /* padding-left: 400%; */
+   font-size: 8px;
+   
+
+}
+
+.Best-Playlist{
+    font-weight: bold;
+    /* padding-left: 400%; */
+   font-size: 8px;
+  
+
+}
+.Artist1{
+    color: green;
+    font-weight: bold;
+   font-size: 8px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   height: 20%;
+   
+}
+.follow-button{
+    color: white;
+    background-color: gray;
+    border: 50px;
+    border-color: white;
+    border-radius: 2px;
+    width: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 5px;
+   
+
+
+}
+.Queen-Post{
+    border: transparent;
+    border-radius: 50px;
+   
+    
+}
+.see-more{
+    padding-top: 1%;
+}
+.Releases{
+    padding-top: 5%;
+}
+.Queen1{
+    padding-bottom: 0px;
 }
