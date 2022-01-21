@@ -157,14 +157,29 @@ label{
     display: none;
     font-size: 40px;
 }
+@media screen and (max-width:320px) {
+    .bgHeader{
+        height: 375px;
+    }
+    
+}
+
  @media screen and (max-width: 600px) {
+     .bgHeader{
+         height: 390px
+     }
     .albumImg{
-        width: 50%;
+        width: 100%;
      }
 
     .AlbumInfoContainer{
         flex-direction: column;
+
         flex-flow: wrap
+
+
+        flex-flow: wrap;
+        height: 335px
 
     }
     .heartThreeDotsIcons{
@@ -196,6 +211,20 @@ label{
         display: none;
         font-size: 40px;
     }
+}
+
+@media screen and (max-width: 1440px) {
+    .bgHeader{
+         height: 565px;
+    }
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .bgHeader{
+        height: 490px
+    }
+    
 }
 
 table{
