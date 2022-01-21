@@ -57,6 +57,7 @@ color: white;
 
 .titleSong{
     font-size: 10px;
+    text-overflow: ellipsis;
 }
 
 
@@ -192,6 +193,15 @@ label{
     
     
 }
+
+@media (max-width: 576px)  { 
+    .galleryArtist {display : none;}
+    .rightVolumeSide {display: none;} 
+
+
+
+}
+
 
 @media screen and (max-width: 768px){
 label{
