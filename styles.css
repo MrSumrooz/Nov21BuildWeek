@@ -436,6 +436,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 70%, rgba(99, 96, 96, 0.945) 83%
     font-size: 10px;
     font-weight: bold;
     padding-right: 5px;
+    
    
 
 
@@ -443,15 +444,31 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 70%, rgba(99, 96, 96, 0.945) 83%
 .Queen-Post{
     border: transparent;
     border-radius: 50px;
+    padding-left: 5%;
+    height: 2px;
    
     
 }
 .see-more{
     padding-top: 1%;
+    font-size: 10px;
+
 }
 .Releases{
     padding-top: 5%;
+    padding-bottom:200px
+    
 }
 .Queen1{
     padding-bottom: 0px;
+}
+.Main-Table{
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+.Pic1{
+    height: 15%;
+}
+.Artist-best{
+    height: 15%;
 }
