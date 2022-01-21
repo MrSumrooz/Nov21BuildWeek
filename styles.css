@@ -176,11 +176,9 @@ label{
     .AlbumInfoContainer{
         flex-direction: column;
 
-        flex-flow: wrap
-
-
         flex-flow: wrap;
-        height: 335px
+
+        height: 335px;
 
     }
     .heartThreeDotsIcons{
